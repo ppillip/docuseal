@@ -7610,6 +7610,643 @@ ko:
   rate_limit_exceeded: 속도 제한 초과
   too_many_requests_try_again_later: 요청이 너무 많습니다. 나중에 다시 시도하세요.
 
+  sign_out: 로그아웃
+  new_password: 새 비밀번호
+  confirm_password: 새 비밀번호 확인
+  change_password: 비밀번호 변경
+  change_my_password: 내 비밀번호 변경
+  changing_password: 비밀번호 변경 중
+  reset_password: 비밀번호 재설정
+  resetting_password: 비밀번호 재설정 중
+  wrong_password: 잘못된 비밀번호
+  set_password: 비밀번호 설정
+  save_password_and_sign_in: 비밀번호 저장 후 로그인
+  please_sign_in: 로그인하세요.
+  you_are_already_signed_in: 이미 로그인되어 있습니다.
+  sign_in_with_name_account: '%{name} 계정으로 로그인'
+  two_factor_authentication: 2단계 인증
+  two_factor_code_from_authenticator_app: 인증 앱의 2단계 코드
+  setup_2fa: 2단계 인증 설정
+  set_up_2fa: 2단계 인증 설정하기
+  remove_2fa: 2단계 인증 해제
+  force_2fa_with_authenticator_app: 인증 앱으로 2단계 인증 강제 설정
+  unconfirmed: 미인증
+  unable_to_identify_reset_your_password_to_sign_in: 인증 불가, 로그인하려면 비밀번호를 재설정하세요.
+  verify_new_sign_in: 새 로그인 인증
+  complete_sign_in: 로그인 완료
+  setup_2fa_to_continue: 계속하려면 2단계 인증을 설정하세요.
+  minimum_password_length_characters_minimum: '최소 %{minimum_password_length}자 이상'
+  templates: 템플릿
+  template_id: 템플릿 ID
+  new_document_template: 새 문서 템플릿
+  document_name: 문서 이름
+  templates_not_found: 템플릿 없음
+  document_templates_html: 문서 템플릿
+  archive: 보관
+  archiving: 보관 중
+  restore: 복원
+  restoring: 복원 중
+  clone: 복제
+  clone_template: 템플릿 복제
+  edit: 편집
+  move: 이동
+  moving: 이동 중
+  preview: 미리보기
+  upload_new_document: 새 문서 업로드
+  upload_a_new_document: 새 문서 업로드
+  template_has_been_archived: 템플릿이 보관되었습니다.
+  template_has_been_cloned: 템플릿이 복제되었습니다.
+  template_has_been_removed: 템플릿이 삭제되었습니다.
+  template_has_been_unarchived: 템플릿 보관이 해제되었습니다.
+  document_template_has_been_moved: 문서 템플릿이 이동되었습니다.
+  unable_to_move_template_into_folder: 폴더로 이동할 수 없습니다.
+  template_deletion_is_irreversible_and_will_permanently_remove_all_associated_signed_documents_with_it_are_you_sure_: 템플릿을 삭제하면 관련된 모든 서명 문서가 영구적으로 삭제됩니다. 계속하시겠습니까?
+  shared: 공유됨
+  recently_used: 최근 사용
+  newest_first: 최신순
+  name_a_z: 이름 가나다순
+  home: 홈
+  folder: 폴더
+  folder_name: 폴더 이름
+  rename_folder: 폴더 이름 변경
+  rename: 이름 변경
+  create_a_new_folder: 새 폴더 만들기
+  move_into_folder: 폴더로 이동
+  new_folder_name: 새 폴더 이름
+  new_subfolder_name: 새 하위 폴더 이름
+  change_parent_folder: 상위 폴더 변경
+  change_folder: 폴더 변경
+  folder_name_has_been_updated: 폴더 이름이 변경되었습니다.
+  unable_to_rename_folder: 폴더 이름 변경 불가.
+  template_name_has_been_completed_by_submitters: "'{template.name}'이(가) {submission.submitters}에 의해 완료되었습니다."
+  submissions: 제출 목록
+  send_to_recipients: 수신자에게 전송
+  sign_it_yourself: 직접 서명
+  add_recipients: 수신자 추가
+  add_new_recipients: 새 수신자 추가
+  add_recipients_html: 수신자 추가
+  send_emails: 이메일 전송
+  type_emails_here: 여기에 이메일 입력
+  submissions_not_found: 제출 없음
+  there_are_no_submissions: 제출된 항목이 없습니다
+  submission_requester: 요청자
+  specified_email: 지정된 이메일
+  submission_has_been_archived: 제출이 보관되었습니다.
+  submission_has_been_removed: 제출이 삭제되었습니다.
+  submission_has_been_unarchived: 제출 보관이 해제되었습니다.
+  submission_deletion_is_irreversible_and_will_permanently_remove_all_associated_signed_documents_with_it_are_you_sure_: 제출을 삭제하면 관련된 모든 서명 문서가 영구적으로 삭제됩니다. 계속하시겠습니까?
+  count_submissions_have_been_created: '%{count}개의 제출이 생성되었습니다.'
+  add_without_sending: 전송 없이 추가
+  preserve_order: 순서 유지
+  send_email: 이메일 전송
+  re_send_sms: SMS 재전송
+  send_sms: SMS 전송
+  new_recipients_have_been_added: 새 수신자가 추가되었습니다.
+  submitter_cannot_be_updated: 제출자를 업데이트할 수 없습니다.
+  ensure_unique_recipients: 중복 수신자 방지
+  require_all_recipients: 모든 수신자 필수
+  signed: 서명됨
+  signers: 서명자
+  audit_log: 감사 로그
+  not_invited_yet: 아직 초대되지 않음
+  not_completed_yet: 아직 완료되지 않음
+  bulk_send_from_excel_xlsx_or_csv: 엑셀/CSV로 일괄 전송
+  upload_list: 목록 업로드
+  pending: 대기 중
+  completed: 완료
+  archived: 보관됨
+  all: 전체
+  send_an_invitation_to_fill_and_complete_the_form: 양식을 작성하고 완료하도록 초대장을 보내세요.
+  sign_in_person: 대면 서명
+  settings: 설정
+  account: 계정
+  preferences: 환경설정
+  language: 언어
+  time_zone: 시간대
+  app_url: 앱 URL
+  update: 업데이트
+  updating: 업데이트 중
+  save: 저장
+  saving: 저장 중
+  changes_have_been_saved: 변경사항이 저장되었습니다.
+  account_information_has_been_updated: 계정 정보가 업데이트되었습니다.
+  settings_have_been_saved: 설정이 저장되었습니다.
+  general: 일반
+  form_preferences: 양식 설정
+  profile: 프로필
+  signature: 서명
+  update_signature: 서명 업데이트
+  initials: 이니셜
+  update_initials: 이니셜 업데이트
+  delete_my_account: 계정 삭제
+  danger_zone: 위험 구역
+  signature_has_been_saved: 서명이 저장되었습니다.
+  signature_has_been_removed: 서명이 삭제되었습니다.
+  initials_has_been_saved: 이니셜이 저장되었습니다.
+  initials_has_been_removed: 이니셜이 삭제되었습니다.
+  unable_to_save_signature: 서명을 저장할 수 없습니다.
+  unable_to_save_initials: 이니셜을 저장할 수 없습니다.
+  delete: 삭제
+  remove: 제거
+  removing: 제거 중
+  are_you_sure_: 정말 진행하시겠습니까?
+  back: 뒤로
+  close: 닫기
+  exit: 나가기
+  leave: 나가기
+  skip: 건너뛰기
+  draw: 그리기
+  clear: 지우기
+  status: 상태
+  title: 제목
+  name: 이름
+  new: 새로 만들기
+  create: 생성
+  apply: 적용
+  applying: 적용 중
+  creating: 생성 중
+  add: 추가
+  adding: 추가 중
+  add_new: 새로 추가
+  next: 다음
+  export: 내보내기
+  search: 검색
+  loading: 로딩 중
+  processing: 처리 중
+  copy: 복사
+  copied: 복사됨
+  copy_link: 링크 복사
+  copy_share_link: 공유 링크 복사
+  copied_to_clipboard: 클립보드에 복사되었습니다
+  upload: 업로드
+  uploading: 업로드 중
+  upload_file: 파일 업로드
+  share_link: 공유 링크
+  enable_shared_link: 공유 링크 활성화
+  share_link_is_currently_disabled: 공유 링크가 현재 비활성화되어 있습니다
+  link: 링크
+  via_email: 이메일로
+  via_phone: 전화로
+  not_found: 찾을 수 없음
+  not_specified: 지정되지 않음
+  already_exists: 이미 존재합니다.
+  invalid_pdf: 유효하지 않은 PDF
+  invalid_file_type: 유효하지 않은 파일 형식
+  file_is_missing: 파일이 없습니다
+  unable_to_save: 저장할 수 없습니다.
+  unable_to_update_file: 파일을 업로드할 수 없습니다.
+  should_be_a_valid_url: 유효한 URL이어야 합니다
+  today: 오늘
+  yesterday: 어제
+  this_week: 이번 주
+  last_week: 지난 주
+  this_month: 이번 달
+  last_month: 지난 달
+  this_year: 올해
+  one_hour: 1시간
+  two_hours: 2시간
+  four_hours: 4시간
+  eight_hours: 8시간
+  twelve_hours: 12시간
+  twenty_four_hours: 24시간
+  one_day: 1일
+  two_days: 2일
+  three_days: 3일
+  four_days: 4일
+  five_days: 5일
+  six_days: 6일
+  seven_days: 7일
+  eight_days: 8일
+  nine_days: 9일
+  ten_days: 10일
+  two_weeks: 2주
+  three_weeks: 3주
+  four_weeks: 4주
+  one_month: 1개월
+  two_months: 2개월
+  three_months: 3개월
+  thirty_days: 30일
+  twenty_one_days: 21일
+  fifteen_days: 15일
+  weekly: 주별
+  none: 없음
+  default: 기본값
+  default_expiration: 기본 만료
+  specified_date: 지정된 날짜
+  phone: 전화번호
+  users: 사용자
+  admin: 관리자
+  editor: 편집자
+  viewer: 뷰어
+  member: 멤버
+  agent: 에이전트
+  superadmin: 슈퍼관리자
+  tenant_admin: 테넌트 관리자
+  new_user: 새 사용자
+  edit_user: 사용자 편집
+  user_has_been_invited: 사용자가 초대되었습니다.
+  user_has_been_updated: 사용자 정보가 업데이트되었습니다.
+  user_has_been_removed: 사용자가 삭제되었습니다.
+  unable_to_update_user: 사용자를 업데이트할 수 없습니다.
+  unable_to_remove_user: 사용자를 삭제할 수 없습니다.
+  archived_users: 보관된 사용자
+  unarchive: 보관 해제
+  view_active: 활성 보기
+  view_archived: 보관 목록 보기
+  teams: 팀
+  tenants: 테넌트
+  team_account: 팀 계정
+  team_accounts: 팀 계정
+  tenant_account: 테넌트 계정
+  tenant_accounts: 테넌트 계정
+  new_team: 새 팀
+  new_tenant: 새 테넌트
+  remove_team: 팀 삭제
+  remove_tenant: 테넌트 삭제
+  team_member_permissions: 팀원 권한
+  entire_team: 전체 팀
+  admin_only: 관리자 전용
+  accessiable_by: 접근 가능
+  team_access: 팀 접근
+  allow_tenant_admins_to_invite_new_users: 테넌트 관리자가 새 사용자 초대 허용
+  impersonate: 다른 사용자로 전환
+  impersonated_as: 다음 사용자로 전환됨
+  embedding_users: 임베딩 사용자
+  view_embedding_users: 임베딩 사용자 보기
+  unlock_more_user_roles_with_docuseal_pro: DocuSeal Pro로 더 많은 사용자 역할 사용하기
+  users_management: 사용자 관리
+  manage_multiple_teams: 여러 팀 관리
+  last_session: 마지막 세션
+  accounts: 계정
+  edit_account: 계정 편집
+  account_has_been_created: 계정이 생성되었습니다.
+  account_has_been_updated: 계정이 업데이트되었습니다.
+  account_has_been_removed: 계정이 삭제되었습니다.
+  create_a_new_account: 새 계정 만들기.
+  text: 텍스트
+  text_field: 텍스트 필드
+  signature_field: 서명 필드
+  date_field: 날짜 필드
+  number_field: 숫자 필드
+  image_field: 이미지 필드
+  file_field: 파일 필드
+  select_field: 선택 필드
+  checkbox_field: 체크박스 필드
+  multiple_field: 다중 선택 필드
+  radio_field: 라디오 그룹 필드
+  cells_field: 셀 필드
+  stamp_field: 도장 필드
+  payment_field: 결제 필드
+  phone_field: 전화번호 필드
+  verification_field: 본인인증 필드
+  knowledge_based_authentication: 지식 기반 인증
+  kba_field: KBA 필드
+  option: 옵션
+  draw_signature: 서명 그리기
+  upload_signature: 서명 업로드
+  upload_initials: 이니셜 업로드
+  link_form_fields: 양식 필드 연결
+  at_least_one_field_must_be_displayed_in_the_form: 양식에 최소 하나의 필드가 표시되어야 합니다.
+  signature_uploaded: 서명이 업로드되었습니다
+  select: 선택
+  rotate: 회전
+  replace: 교체
+  undo: 실행 취소
+  underline: 밑줄
+  time: 시간
+  email_templates: 이메일 템플릿
+  signature_request_email: 서명 요청 이메일
+  signature_request_reminder_email: 서명 요청 리마인더 이메일
+  signature_request_sms: 서명 요청 SMS
+  completed_notification_email: 완료 알림 이메일
+  documents_copy_email: 문서 사본 이메일
+  email_notifications: 이메일 알림
+  sign_request_email_reminders: 서명 요청 이메일 리마인더
+  send_automatic_email_reminders_to_your_recipients: 수신자에게 자동 이메일 리마인더를 전송합니다.
+  first_reminder_in: 첫 번째 리마인더
+  second_reminder_in: 두 번째 리마인더
+  third_reminder_in: 세 번째 리마인더
+  bcc_recipients: BCC 수신자
+  completed_documents_notification_bcc_address: 완료 문서 알림 BCC 주소
+  email_integration: 이메일 연동
+  send_via_connected_email: 연동된 이메일로 전송
+  connect_gmail: Gmail 연결
+  re_connect_gmail: Gmail 재연결
+  connect_microsoft: Microsoft 연결
+  re_connect_microsoft: Microsoft 재연결
+  gmail_has_been_connected: Gmail이 연결되었습니다.
+  microsoft_account_has_been_connected: Microsoft 계정이 연결되었습니다.
+  smtp_not_configured: SMTP 미설정
+  configure_smtp_settings_in_order_to_send_emails_: '이메일 전송을 위해 SMTP 설정을 구성하세요:'
+  go_to_smtp_settings: SMTP 설정으로 이동
+  email_has_been_sent: 이메일이 전송되었습니다.
+  email_has_been_sent_already: 이메일이 이미 전송되었습니다.
+  subject: 제목
+  body: 본문
+  text_message: 문자 메시지
+  send_from_email: 발신 이메일
+  send_signature_request_to_your_recipients_directly_from_your_email: 내 이메일에서 직접 서명 요청을 수신자에게 전송하세요
+  reply_to: 회신 대상
+  send_signature_requests_via_sms: SMS로 서명 요청 전송
+  sms_not_configured: SMS 미설정
+  configure_sms_settings_in_order_to_send_text_messages_: '문자 메시지 전송을 위해 SMS 설정을 구성하세요:'
+  go_to_sms_settings: SMS 설정으로 이동
+  sms: SMS
+  sms_has_been_sent: SMS가 전송되었습니다.
+  sending_sms: SMS 전송 중
+  send_sms_via_webhook: 웹훅으로 SMS 전송
+  webhook_integration_allows_to_send_sms_using_any_provider: 웹훅 연동을 통해 모든 공급자로 SMS를 전송할 수 있습니다
+  twilio_settings: Twilio 설정
+  account_sid: 계정 SID
+  from: 발신자
+  to: 수신자
+  resend: 재전송
+  resend_pending: 대기 중 재전송
+  notification: 알림
+  notifications: 알림
+  receive_notification_emails_on_completed_submission: 완료된 제출에 대한 알림 이메일 수신
+  send_email_copy_with_completed_documents_to_a_specified_bcc_address: 완료 문서 이메일 사본을 지정된 BCC 주소로 전송
+  free: 무료
+  pro: Pro
+  plans: 요금제
+  start_with_pro: Pro로 시작하기
+  upgrade: 업그레이드
+  upgade_now: 지금 업그레이드
+  manage_plan: 요금제 관리
+  manage_subscription: 구독 관리
+  user_month: 사용자 / 월
+  unlock_with_docuseal_pro: DocuSeal Pro로 사용 가능
+  activate_with_docuseal_pro: DocuSeal Pro로 활성화
+  upgrade_to_send_unlimited_signature_requests: 무제한 서명 요청을 위해 업그레이드
+  send_signature_request_emails_without_limits_with_docuseal_pro: DocuSeal Pro로 무제한 서명 요청 이메일 전송
+  overdue_payment: 연체된 결제
+  your_pro_plan_payment_is_overdue: Pro 플랜 결제가 연체되었습니다.
+  your_pro_plan_has_been_suspended_due_to_unpaid_invoices_you_can_update_your_payment_details_to_settle_the_invoice_and_continue_using_docuseal_or_cancel_your_subscription: 미납 청구서로 인해 Pro 플랜이 중단되었습니다. 결제 정보를 업데이트하여 청구서를 정산하고 DocuSeal을 계속 사용하거나 구독을 취소할 수 있습니다.
+  unlock_more_features_with_docuseal_pro: DocuSeal Pro로 더 많은 기능 사용하기
+  continue_with_free_basic: 무료 기본 플랜으로 계속
+  start_a_quick_tour_to_learn_how_to_create_an_send_your_first_document: 빠른 둘러보기를 시작하여 첫 번째 문서를 만들고 전송하는 방법을 알아보세요
+  start_tour: 둘러보기 시작
+  welcome_to_docuseal: DocuSeal에 오신 것을 환영합니다
+  welcome_to_product_name: '%{product_name}에 오신 것을 환영합니다'
+  signing_certificates: 서명 인증서
+  pdf_signature: PDF 서명
+  verify_pdf: PDF 검증
+  verify_signed_pdf: 서명된 PDF 검증
+  upload_cert: 인증서 업로드
+  upload_certificate: 인증서 업로드
+  valid_to: 유효기간
+  make_default: 기본으로 설정
+  timestamp_server: 타임스탬프 서버
+  timeserver_url: 타임서버 URL
+  signed_with_trusted_certificate: 신뢰 인증서로 서명됨
+  signed_with_external_certificate: 외부 인증서로 서명됨
+  single_sign_on_with_saml_2_0: SAML 2.0 SSO
+  force_sso_disable_login_with_email_and_password: SSO 강제 설정 (이메일/비밀번호 로그인 비활성화)
+  sso_settings_have_been_updated: SSO 설정이 업데이트되었습니다.
+  there_are_no_signatures: 서명이 없습니다
+  certificate_has_been_successfully_added: 인증서가 성공적으로 추가되었습니다.
+  default_certificate_has_been_selected: 기본 인증서가 선택되었습니다.
+  certificate_has_been_removed: 인증서가 삭제되었습니다.
+  use_your_own_certificates_to_sign_and_verify_pdf_files: 자체 인증서를 사용하여 PDF 파일에 서명하고 검증하세요.
+  use_a_valid_der_p12_or_pfx_file: 유효한 .der, .p12 또는 .pfx 파일을 사용하세요.
+  url_of_the_trusted_rfc_3161_timeserver_to_be_used_to_generate_timestamp_signatures: 타임스탬프 서명 생성에 사용할 신뢰할 수 있는 RFC 3161 타임서버 URL
+  api_and_embedding: API 및 임베딩
+  api_key: API 키
+  embedding_url: 임베딩 URL
+  webhook_settings: 웹훅 설정
+  new_webhook: 새 웹훅
+  delete_webhook: 웹훅 삭제
+  webhook_secret: 웹훅 시크릿
+  webhook_secret_has_been_saved: 웹훅 시크릿이 저장되었습니다.
+  webhook_url_has_been_saved: 웹훅 URL이 저장되었습니다.
+  webhook_url_has_been_updated: 웹훅 URL이 업데이트되었습니다.
+  webhook_url_has_been_deleted: 웹훅 URL이 삭제되었습니다.
+  webhook_request_has_been_sent: 웹훅 요청이 전송되었습니다.
+  unable_to_resend_webhook_request: 웹훅 요청을 재전송할 수 없습니다.
+  make_com_integration: Make.com 연동
+  zapier_integration: Zapier 연동
+  seamlessly_automate_your_document_signing_process_with_make_com: Make.com으로 문서 서명 프로세스를 자동화하세요.
+  find_suitable_zapier_templates_to_automate_your_workflow: 워크플로우 자동화에 적합한 Zapier 템플릿을 찾아보세요.
+  get_started: 시작하기
+  open_full_api_reference: 전체 API 문서 보기
+  submission_example_payload: 제출 예시 페이로드
+  share_template_with_test_mode: 테스트 모드로 템플릿 공유
+  share_template_with_all_tenants: 모든 테넌트와 템플릿 공유
+  variables: 변수
+  key: 키
+  value: 값
+  add_secret: 시크릿 추가
+  edit_secret: 시크릿 편집
+  integration: 연동
+  integrations: 연동
+  storage: 저장소
+  store_all_files_on_disk: 모든 파일을 디스크에 저장
+  no_configs_are_needed_but_make_sure_your_disk_is_persistent: 설정이 필요 없지만 디스크가 영구적인지 확인하세요
+  not_suitable_for_heroku_and_other_paas: Heroku 및 기타 PaaS에는 적합하지 않습니다
+  for_aws_s3_compatible_apis_like_minio: Minio와 같은 AWS S3 호환 API용
+  personalization: 개인화
+  company_logo: 회사 로고
+  logo: 로고
+  upload_logo: 로고 업로드
+  logo_has_been_uploaded: 로고가 업로드되었습니다.
+  display_your_company_name_and_logo_when_signing_documents: 문서 서명 시 회사 이름과 로고를 표시합니다.
+  submission_form: 제출 양식
+  completed_form_message: 완료 양식 메시지
+  completed_form_redirect_button: 완료 후 리디렉션 버튼
+  form_custom_css: 양식 사용자 정의 CSS
+  show_confetti_on_successful_completion: 완료 성공 시 축하 효과 표시
+  attach_audit_log_pdf: 감사 로그 PDF 첨부
+  attach_documents: 문서 첨부
+  attach_audit_log_pdf_to_the_email: 이메일에 감사 로그 PDF 첨부
+  attach_documents_to_the_email: 이메일에 문서 첨부
+  send_emails_automatically_on_completion: 완료 시 자동으로 이메일 전송
+  redirect_on_completion_url: 완료 후 리디렉션 URL
+  completion_message: 완료 메시지
+  email_subject: 이메일 제목
+  email_body: 이메일 본문
+  button_title: 버튼 제목
+  button_url: 버튼 URL
+  policy_links: 정책 링크
+  markdown_content_e_g: '마크다운 내용 예시:'
+  document_id: 문서 ID
+  envelope_id: 봉투 ID
+  event_log: 이벤트 로그
+  events_log: 이벤트 로그
+  there_are_no_events: 이벤트가 없습니다
+  succeeded: 성공
+  failed: 실패
+  passed: 통과
+  background_jobs: 백그라운드 작업
+  test_mode: 테스트 모드
+  test: 테스트
+  testing_log_not_for_production_use: 테스트 로그 - 프로덕션용 아님
+  console: 콘솔
+  initial_setup: 초기 설정
+  demo_environment: 데모 환경
+  e_signature: 전자서명
+  download_combined_pdf: 통합 PDF 다운로드
+  or_add_from: 또는 다음에서 추가
+  add_from_google_drive: Google 드라이브에서 추가
+  original_sha256: 원본 SHA256
+  result_sha256: 결과 SHA256
+  generated_at: 생성일
+  document_download_filename_format: 문서 다운로드 파일명 형식
+  allow_typed_text_signatures: 텍스트 입력 서명 허용
+  allow_to_resubmit_completed_forms: 완료된 양식 재제출 허용
+  allow_to_decline_documents: 문서 거절 허용
+  remember_and_pre_fill_signatures: 서명 기억 및 자동 입력
+  require_authentication_for_file_download_links: 파일 다운로드 링크에 인증 필요
+  combine_completed_documents_and_audit_log: 완료 문서와 감사 로그 통합
+  add_signature_id_to_the_documents: 문서에 서명 ID 추가
+  require_signing_reason: 서명 이유 필수
+  apply_multiple_pdf_digital_signatures_in_the_document_per_each_signer: 서명자마다 PDF 디지털 서명 적용
+  remove_pdf_form_fillable_fields_from_the_signed_pdf_flatten_form: 서명된 PDF에서 작성 가능한 필드 제거 (양식 플래튼)
+  invalid_timeserver: 유효하지 않은 타임서버
+  learn_more: 더 알아보기
+  need_help_ask_a_question_: '도움이 필요하신가요? 질문하세요:'
+  discord_community: Discord 커뮤니티
+  ask_ai: AI에게 질문
+  ai_assistant: AI 어시스턴트
+  developer_newsletters: 개발자 뉴스레터
+  require_email_2fa: 이메일 2단계 인증 필수
+  require_phone_2fa: 전화 2단계 인증 필수
+  always_enforce_signing_order: 항상 서명 순서 강제
+  enforce_recipients_order: 수신자 순서 강제
+  edit_order: 순서 편집
+  edit_per_party: 당사자별 편집
+  expirable_file_download_links: 만료 가능한 파일 다운로드 링크
+  sender_form_fields: 발신자 양식 필드
+  default_parties: 기본 당사자
+  authenticate_embedded_form_preview_with_token: 토큰으로 임베딩 양식 미리보기 인증
+  stripe_integration: Stripe 연동
+  salesforce_integration: Salesforce 연동
+  stripe_account_has_been_connected: Stripe 계정이 연결되었습니다.
+  salesforce_has_been_connected: Salesforce가 연결되었습니다.
+  connect_salesforce_account_to_integrate_with_docuseal: Salesforce 계정을 연결하여 DocuSeal과 통합하세요
+  re_connect_stripe: Stripe 재연결
+  re_connect_salesforce: Salesforce 재연결
+  connect_salesforce: Salesforce 연결
+  connected_successfully: 성공적으로 연결되었습니다.
+  has_been_connected: 연결되었습니다
+  but_not_activated: 연결되었지만 활성화되지 않음
+  billing: 결제
+  party: 당사자
+  first_party: 첫 번째 당사자
+  make_owner: 소유자로 설정
+  owner: 소유자
+  select_user: 사용자 선택
+  author: 작성자
+  created_at: 생성일
+  completed_at: 완료일
+  session_id: 세션 ID
+  detailed: 상세
+  opened: 열림
+  sent: 전송됨
+  awaiting: 대기 중
+  back_to_active: 활성 목록으로
+  remove_filter: 필터 제거
+  edit_recipient: 수신자 편집
+  update_recipient: 수신자 업데이트
+  pro_user_seats_used: Pro 사용자 시트 사용량
+  invite_by_name: '%{name}(으)로 초대'
+  invite_via_form_field: 양식 필드로 초대
+  same_as_name: '%{name}과(와) 동일'
+  default_email: 기본 이메일
+  private: 비공개
+  make_all_newly_created_templates_private_to_their_creator_and_admins_by_default: 새로 만들어지는 모든 템플릿을 기본적으로 작성자와 관리자만 볼 수 있도록 설정
+  create_templates_with_admin_access_by_default: 기본적으로 관리자 접근 권한으로 템플릿 생성
+  create_templates_with_private_access_by_default: 기본적으로 비공개 접근 권한으로 템플릿 생성
+  use_direct_file_attachment_links_in_the_documents: 문서에서 직접 파일 첨부 링크 사용
+  docuseal_trusted_signature: DocuSeal 신뢰 서명
+  edit_message: 메시지 편집
+  save_as_default_template_message: 기본 템플릿 메시지로 저장
+  or_embed_on_your_website: 또는 웹사이트에 임베딩
+  api_token_has_been_updated: API 토큰이 업데이트되었습니다.
+  remove_existing_api_token_and_generated_a_new_one_are_you_sure_: 기존 API 토큰을 삭제하고 새로 생성합니다. 계속하시겠습니까?
+  use_otp_code_to_sign_in_or_click_the_link_below_html: '<b>%{code}</b> 코드를 사용하여 로그인하거나 아래 링크를 클릭하세요:'
+  please_reply_to_this_email_if_you_dont_recognize_this_sign_in_attempt: 이 로그인 시도를 인식하지 못하는 경우 이 이메일에 회신하세요.
+  docuseal_support: DocuSeal 지원
+  use_the_edit_form_to_move_it_to_another_team: 편집 양식을 사용하여 다른 팀으로 이동하세요.
+  too_many_sms_attempts_try_again_in_a_few_seconds: SMS 시도가 너무 많습니다. 잠시 후 다시 시도하세요.
+  number_phone_number_is_invalid: "+%{number} 전화번호가 유효하지 않습니다"
+  on_a_scale_of_1_to_10_how_satisfied_are_you_with_the_docuseal_product_: 1에서 10까지의 척도로 DocuSeal 제품에 얼마나 만족하십니까?
+  tell_us_more_about_your_experience: 경험에 대해 더 알려주세요
+  extremely_dissatisfied: 매우 불만족
+  extremely_satisfied: 매우 만족
+  upgrade_your_plan_to_invite_more_users_contact_email: '더 많은 사용자를 초대하려면 플랜을 업그레이드하세요 (%{email} 문의).'
+  contact_your_admin_email_to_invite_more_users: '더 많은 사용자를 초대하려면 관리자 %{email}에게 문의하세요.'
+  contact_your_administrator_to_add_new_users: 새 사용자를 추가하려면 관리자에게 문의하세요
+  sign_documents_with_trusted_certificate_provided_by_docu_seal_your_documents_and_data_are_never_shared_with_docu_seal_p_d_f_checksum_is_provided_to_generate_a_trusted_signature: DocuSeal에서 제공하는 신뢰 인증서로 문서에 서명하세요. 문서와 데이터는 DocuSeal과 공유되지 않습니다.
+  exit_preview: 미리보기 종료
+  upgrade_to_start_using_in_production_html: '<a href="%{url}" target="_blank" class="link font-semibold">업그레이드</a>하여 프로덕션에서 사용을 시작하세요.'
+  sign_up_in_docuseal_console_to_upgrade_on_premises_app_is_completely_standalone_console_is_used_only_to_manage_your_license: 업그레이드하려면 DocuSeal 콘솔에서 가입하세요. 온프레미스 앱은 완전히 독립적이며, 콘솔은 라이선스 관리에만 사용됩니다.
+  count_10_signature_request_emails_sent_this_month_upgrade_to_pro_to_send_unlimited_signature_request_email: '이번 달 %{count}/10개의 서명 요청 이메일이 전송되었습니다. 무제한 전송을 위해 Pro로 업그레이드하세요.'
+  test_mode_emails_limit_will_be_reset_within_24_hours: 테스트 모드 이메일 한도는 24시간 이내에 재설정됩니다.
+  users_count_total_users_count_pro_users_limit_was_reached_to_invite_additional_users_please_purchase_more_pro_user_seats_via_the_manage_plan_button: "%{users_count}/%{total_users_count} Pro 사용자 한도에 도달했습니다. 추가 사용자를 초대하려면 요금제 관리 버튼을 통해 Pro 사용자 시트를 더 구매하세요."
+  verify: 검증
+  documents: 문서
+  tabs: 탭
+  tablet: 태블릿
+  mobile: 모바이
+  desktop: 데스크탑
+  page_number: '%{number} 페이지'
+  digital_signature: 디지털 서명
+  identity_verification: 본인인증
+  paid_price: '%{price} 결제됨'
+  verified: 인증됨
+  unverified: 미인증
+  document: 문서
+  sms_length_cant_be_longer_than_120_bytes: SMS 길이는 120바이트를 초과할 수 없습니다
+  user_nameid_not_found: '사용자 %{nameid}를 찾을 수 없습니다.'
+  form_has_been_archived: 양식이 보관되었습니다.
+  form_has_been_expired: 양식이 만료되었습니다.
+  form_has_been_completed_already: 양식이 이미 완료되었습니다.
+  form_has_been_declined: 양식이 거절되었습니다.
+  this_template_has_multiple_parties_which_prevents_the_use_of_a_sharing_link: 이 템플릿에는 여러 당사자가 있어 공유 링크를 사용할 수 없습니다.
+  this_submission_has_multiple_signers_which_prevents_the_use_of_a_sharing_link_html: 이 제출에는 여러 서명자가 있어 공유 링크를 사용할 수 없습니다.
+  templates_that_require_email_or_phone_2fa_cannot_be_used_via_a_shared_link: 이메일 또는 전화 2FA가 필요한 템플릿은 공유 링크로 사용할 수 없습니다.
+  return_back_to_your_desktop_device_to_complete_the_form_or_continue_on_mobile_html: '양식을 완료하려면 데스크탑으로 돌아가거나 <a class="link" href="%{link}">모바일에서 계속</a>하세요'
+  thanks: 감사합니다
+  you_are_invited_to_product_name: '%{product_name}에 초대되었습니다'
+  you_have_been_invited_to_account_name_product_name_please_sign_up_using_the_link_below_: '%{account_name} %{product_name}에 초대되었습니다. 아래 링크를 사용하여 가입하세요:'
+  you_have_been_invited_to_sign_the_name: '"%{name}"에 서명하도록 초대되었습니다.'
+  you_have_been_invited_to_submit_the_name_form: '"%{name}" 양식을 제출하도록 초대되었습니다.'
+  you_are_invited_to_sign_a_document: 문서에 서명하도록 초대되었습니다
+  you_are_invited_to_sign_documents: 문서에 서명하도록 초대되었습니다
+  you_are_invited_to_submit_a_form: 양식을 제출하도록 초대되었습니다
+  your_document_copy: 문서 사본
+  name_has_been_completed_by_submitters: '"%{name}"이(가) %{submitters}에 의해 완료되었습니다.'
+  you_are_scheduling_your_account_for_deletion_after_deletion_your_data_will_be_permanently_removed_and_cannot_be_recovered_click_ok_if_you_would_like_to_continue: 계정 삭제를 예약하고 있습니다. 삭제 후 데이터가 영구 제거되며 복구할 수 없습니다. 계속하시려면 확인을 클릭하세요.
+  your_account_removal_request_will_be_processed_within_2_months_please_contact_us_if_you_want_to_keep_your_account: 계정 삭제 요청은 2개월 이내에 처리됩니다. 계정을 유지하고 싶으시면 문의해 주세요.
+  use_following_placeholders_text_: '다음 자리 표시자 텍스트를 사용하세요:'
+  primarily_opened_with_microsoft_excel_other_options_include_google_sheets_libreoffice_calc_and_openoffice_calc: 주로 Microsoft Excel로 열립니다. 다른 옵션으로는 Google Sheets, LibreOffice Calc, OpenOffice Calc가 있습니다.
+  can_be_opened_with_microsoft_excel_google_sheets_or_any_text_editor_like_notepad: Microsoft Excel, Google Sheets 또는 메모장 같은 텍스트 편집기로 열 수 있습니다.
+  click_to_upload_or_drag_and_drop_html: 클릭하여 업로드하거나 드래그 앤 드롭
+  click_to_upload_or_drag_and_drop_files_html: '<span class="font-medium">클릭하여 업로드</span>하거나 파일을 드래그 앤 드롭'
+  analyzing: 분석 중
+  upload_signed_pdf_file_to_validate_its_signature_: '서명된 PDF 파일을 업로드하여 서명을 검증하세요:'
+  your_company_logo: 회사 로고
+  connect_own_email_address: 자체 이메일 주소 연결
+  personalize_email_content: 이메일 내용 개인화
+  automated_reminders: 자동 리마인더
+  identify_verification_via_sms: SMS로 본인인증
+  unlimited_signature_request_emails: 무제한 서명 요청 이메일
+  unlimited_documents_storage: 무제한 문서 저장
+  unlimited_sign_yourself: 무제한 직접 서명
+  free_developer_testing_sandbox: 무료 개발자 테스트 샌드박스
+  ten_filed_types: 10가지 필드 유형
+  multiple_signers: 여러 서명자
+  automatic_esignature: 자동 전자서명
+  ten_signature_request_emails_per_month: 월 10개 서명 요청 이메일
+  bulk_send_from_spreadsheet: 스프레드시트로 일괄 전송
+  developer_sandbox: 개발자 샌드박스
+  pending_by_me: 내가 대기 중인 항목
+  partially_completed: 부분 완료
+  expired: 만료됨
+  sign_now: 지금 서명
+  you_requested_to_reset_your_password_use_the_link_below_to_continue: 비밀번호 재설정을 요청하셨습니다. 계속하려면 아래 링크를 사용하세요.
+  your_password_wont_change_until_you_open_the_link_above_and_set_a_new_one: 위의 링크를 열고 새 비밀번호를 설정하기 전까지는 비밀번호가 변경되지 않습니다.
+  you_have_been_invited_to_sign_the_template_name_html: '<b>%{template_name}</b>에 서명하도록 초대되었습니다'
 ja:
   require_phone_2fa_to_open: 電話による2段階認証が必要です
   the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: 送信者は、<b>%{phone}</b> に送信されたワンタイムパスワードによる2段階認証を要求しました。
