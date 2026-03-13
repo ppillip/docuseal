@@ -4,9 +4,7 @@
     <a href="<%= root_path %>" class="text-2xl font-bold items-center flex space-x-2">
       <%= render 'shared/title' %>
     </a>
-    <span class="hidden sm:inline">
-      <%= render 'shared/github' if request.path.starts_with?('/settings') %>
-    </span>
+
   </div>
   <% if signed_in? %>
     <div class="space-x-4 flex items-center">
@@ -24,8 +22,8 @@
         </div>
       <% end %>
       <div class="dropdown dropdown-end">
-        <label tabindex="0" class="cursor-pointer bg-base-content text-purple-300 rounded-full p-2 w-9 justify-center flex">
-          <span class="text-sm align-text-top"><%= current_user.initials %></span>
+        <label tabindex="0" class="cursor-pointer bg-base-content text-purple-300 rounded-full px-3 py-1.5 justify-center items-center flex whitespace-nowrap">
+          <span class="text-sm"><%= current_user.first_name %></span>
         </label>
         <ul tabindex="0" class="z-10 dropdown-content p-2 mt-2 shadow menu text-base bg-base-100 rounded-box min-w-[160px] text-right">
           <li>
@@ -34,14 +32,7 @@
               <span class="mr-1"><%= t('profile') %></span>
             <% end %>
           </li>
-          <% if !Docuseal.demo? && can?(:manage, EncryptedConfig) %>
-            <li>
-              <%= link_to Docuseal.multitenant? ? console_redirect_index_path : Docuseal::CONSOLE_URL, data: { prefetch: false }, class: 'flex items-center' do %>
-                <%= svg_icon('terminal', class: 'w-5 h-5 flex-shrink-0 stroke-2') %>
-                <%= t('console') %>
-              <% end %>
-            </li>
-          <% end %>
+
           <% if can?(:read, EncryptedConfig.new(key: EncryptedConfig::ESIGN_CERTS_KEY, account: current_account)) %>
             <li>
               <%= link_to settings_esign_path, class: 'flex items-center' do %>
