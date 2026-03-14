@@ -36,9 +36,9 @@ services:
   caddy:
     image: caddy:latest
     restart: always
-    command: caddy reverse-proxy --from ${HOST:-localhost} --to app:3000
+    command: caddy reverse-proxy --from ${HOST:-localhost}:${PORT:-80} --to app:3000
     ports:
-      - 80:80
+      - ${PORT:-80}:${PORT:-80}
       - 443:443
     depends_on:
       - app
