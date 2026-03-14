@@ -23,13 +23,13 @@ export PORT=${PORT:-"9090"}
 # 3. 배포 실행
 echo "운영 전용 설정을 사용하여 서비스를 구동합니다..."
 echo "👉 주소: http://${HOST}:${PORT}"
-docker compose -f ${COMPOSE_FILE} up -d
+docker-compose -f ${COMPOSE_FILE} up -d
 
 if [ $? -eq 0 ]; then
   echo "=========================================="
   echo "✅ 운영 서버 구동 성공!"
   echo "👉 도메인/주소: http://${HOST}"
-  echo "👉 상태 확인: docker compose -f ${COMPOSE_FILE} ps"
+  echo "👉 상태 확인: docker-compose -f ${COMPOSE_FILE} ps"
   echo "=========================================="
 else
   echo "❌ 배포 중 문제가 발생했습니다."
