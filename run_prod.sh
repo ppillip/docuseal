@@ -23,13 +23,46 @@ export PORT=${PORT:-"9090"}
 # 3. 배포 실행
 echo "운영 전용 설정을 사용하여 서비스를 구동합니다..."
 echo "👉 주소: http://${HOST}:${PORT}"
-docker-compose -f ${COMPOSE_FILE} up -d
+
+# Create network if it doesn't exist
+docker network inspect docuseal_default >/dev/null 2>&1 || \
+    docker network create docuseal_default
+
+# Stop existing containers if they exist
+docker stop docuseal-postgres-1 docuseal-app-1 2>/dev/null || true
+docker rm docuseal-postgres-1 docuseal-app-1 2>/dev/null || true
+
+# Run Postgres Database
+echo "Starting Postgres..."
+docker run -d \
+  --name docuseal-postgres-1 \
+  --network docuseal_default \
+  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_DB=docuseal \
+  -v docuseal_postgres_data:/var/lib/postgresql/data \
+  postgres:15-alpine
+
+# Wait for DB to be ready
+echo "Waiting for database to initialize..."
+sleep 5
+
+# Run the Application
+echo "Starting DocuSeal Application..."
+docker run -d \
+  --name docuseal-app-1 \
+  --network docuseal_default \
+  -p ${PORT}:3000 \
+  -e DATABASE_URL="postgresql://postgres:postgres@docuseal-postgres-1:5432/docuseal" \
+  -e SECRET_KEY_BASE="YOUR_RANDOM_SECRET_KEY_HERE" \
+  -v docuseal_app_data:/data/docuseal \
+  docuseal-custom:prod
 
 if [ $? -eq 0 ]; then
   echo "=========================================="
   echo "✅ 운영 서버 구동 성공!"
-  echo "👉 도메인/주소: http://${HOST}"
-  echo "👉 상태 확인: docker-compose -f ${COMPOSE_FILE} ps"
+  echo "👉 도메인/주소: http://${HOST}:${PORT}"
+  echo "👉 상태 확인: docker ps | grep docuseal"
   echo "=========================================="
 else
   echo "❌ 배포 중 문제가 발생했습니다."
