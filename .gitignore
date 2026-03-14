@@ -39,3 +39,7 @@ yarn-debug.log*
 dump.rdb
 *.onnx
 /docuseal-data/
+/pg_data/
+/caddy/
+/caddy_data/
+/caddy_config/
