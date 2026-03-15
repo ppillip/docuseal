@@ -94,7 +94,7 @@
         href="https://www.docuseal.com/start"
         target="_blank"
         class="underline"
-      >DocuSeal</a> - {{ t('open_source_documents_software') }}
+      >포시즌에이아이</a> - {{ t('open_source_documents_software') }}
     </div>
   </div>
 </template>
